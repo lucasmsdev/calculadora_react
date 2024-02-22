@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f2f2f2; /* Cor de fundo modificada */
+}
+
+.calculator {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Reduzida a opacidade da sombra */
+  background: #fff; /* Cor de fundo modificada */
+  color: #000; /* Cor do texto modificada */
+}
+
+.display {
+  font-size: 2.0em;
+  margin-bottom: 10px;
+  background: #f2f2f2; /* Cor de fundo modificada */
+  padding: 28px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: right;
+  color: #000; /* Cor do texto modificada */
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  color: #000; /* Cor do texto modificada */
+}
+
+button {
+  font-size: 1.8em;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+  background: #3498db; /* Cor de fundo modificada */
+  color: #fff; /* Cor do texto modificada */
+}
+
+button:hover {
+  background: #2980b9; /* Cor de fundo modificada no hover */
+}
